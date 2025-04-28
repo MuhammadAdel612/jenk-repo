@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jenk-pod
+spec:
+  containers:
+  - name: jenk
+    image: muhammadadel8/jenk-build1:v1
